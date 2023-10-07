@@ -14,7 +14,7 @@ export const Header = ()=>{
                         <div className="topnav">
                             <ul className="reset">
                                 <li>
-                                    <NavLink to="/">Home</NavLink>
+                                    <NavLink to="/">ome</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="about/">About Us</NavLink>
