@@ -33,8 +33,8 @@ export const Header = ()=>{
                         <div className="headerright">
                             <ul className="reset">
                                 <li></li>
-                                <li>
-                                    <NavLink to="#" className="bookbtn">Book and Appointment</NavLink>
+                                <li className="bookbtn">
+                                    <NavLink to="#">Book and Appointment</NavLink>
                                 </li>
                             </ul>
                         </div>
