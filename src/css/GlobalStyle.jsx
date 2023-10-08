@@ -15,6 +15,7 @@ a{text-decoration: none;}
 .headersec .topnav ul li a{color: #fff; display: inline-block; font-size: 16px; font-weight: 500; line-height: normal; transition: all 0.3s linear; letter-spacing: 0.5px;}
 .headersec .topnav ul li a:hover{color: ${({theme})=> theme.colors.green}}
 .headersec .headerright ul{display: flex; flex-flow: row nowrap; gap: 40px; font-size: 0;}
-.headersec .headerright ul a.bookbtn{padding: 15px 30px; background: ${({theme})=> theme.colors.light_blue}; color: ${({theme})=> theme.colors.white}; font-size: 18px; font-weight: 600; border-radius: 6px; transition: all 0.3s linear; transform: translateY(0); transform-origin: bottom;}
+.headersec .headerright ul a{color: ${({theme})=> theme.colors.white}; font-size: 18px; font-weight: 600; transition: all 0.3s linear;}
+.headersec .headerright ul a.bookbtn{padding: 15px 30px; background: ${({theme})=> theme.colors.light_blue}; border-radius: 6px;  transform: translateY(0); transform-origin: bottom;}
 .headersec .headerright ul a.bookbtn:hover{transform: translateY(-5px);}
 `;

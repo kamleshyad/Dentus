@@ -32,7 +32,7 @@ export const Header = ()=>{
                         </div>
                         <div className="headerright">
                             <ul className="reset">
-                                <li></li>
+                                <li><NavLink to="tel:0123456789" className="glcall callbtn">+0 123-456-789 </NavLink></li>
                                 <li>
                                     <NavLink to="#" className="bookbtn">Book and Appointment</NavLink>
                                 </li>
