@@ -14,10 +14,10 @@ export const Header = ()=>{
                         <div className="topnav">
                             <ul className="reset">
                                 <li><NavLink to="/" className={({ isActive })=>(isActive ? 'active' : 'inactive')}>Home</NavLink></li>
-                                <li><NavLink to="about/">About Us</NavLink></li>
-                                <li><NavLink to="services/">Services</NavLink></li>
-                                <li><NavLink to="blog/">Blog</NavLink></li>
-                                <li><NavLink to="contact/">Contact</NavLink></li>
+                                <li><NavLink to="about/" className={({ isActive })=> (isActive ? 'active' : 'inactive')}>About Us</NavLink></li>
+                                <li><NavLink to="services/" className={({ isActive })=> (isActive ? 'active' : 'isactive')}>Services</NavLink></li>
+                                <li><NavLink to="blog/" className={({ isActive })=> (isActive ? 'active' : 'isactive')}>Blog</NavLink></li>
+                                <li><NavLink to="contact/" className={({ isActive })=> (isActive ? 'active' : 'isactive')}>Contact</NavLink></li>
                             </ul>
                         </div>
                         <div className="headerright">
